@@ -17,7 +17,6 @@ def caesar_cipher word, key
                new_word_by_index.push(new_index_number)
              else
                z_index = z_convert - 26
-               z_index
                new_word_by_index.push(z_index)
              end
           end
@@ -27,8 +26,7 @@ def caesar_cipher word, key
       new_word_by_index.each do |index|
          cipher_word.push(alphabet[index])
       end
+
       cipher_word.join
   end
 end
-
-caesar_cipher "computer", 7
