@@ -27,6 +27,8 @@ def caesar_cipher word, key
          cipher_word.push(alphabet[index])
       end
 
-      cipher_word.join
+      puts cipher_word.join
   end
 end
+
+caesar_cipher "computer", 21
