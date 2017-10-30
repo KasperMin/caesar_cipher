@@ -17,7 +17,7 @@ def substrings word_or_sentence, dictionary
       occurences[word] +=1
     end
   end
-  puts occurences.inspect
+  occurences
 end
 
 
